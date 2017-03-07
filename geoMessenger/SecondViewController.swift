@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SecondViewController: UIViewController {
 
