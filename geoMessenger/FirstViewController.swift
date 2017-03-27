@@ -69,7 +69,7 @@ class FirstViewController: UIViewController {
                                       username: (dictionary["username"] as? String)!,
                                       coordinate: CLLocationCoordinate2D(latitude: pinLat, longitude: pinLong),
                                       isDisabled: messageDisabled
-                )}
+                )
             
             pinMessage = message
             
@@ -78,7 +78,7 @@ class FirstViewController: UIViewController {
             {
                 self.mapView.addAnnotation(message)
             }
-            
+            }
         })
         
     }
@@ -121,3 +121,4 @@ class FirstViewController: UIViewController {
         checkLocationAuthorizationStatus()
 }
 
+}

@@ -57,7 +57,7 @@ func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, callou
 }
 
 
-override func viewDidLoad()
+/*override func viewDidLoad()
 {
     super.viewDidLoad()
     
@@ -71,7 +71,7 @@ override func viewDidLoad()
     let message = Message(title: "The Bucks are legit!", locationName: "Bradley Center", username: "John Smith", coordinate: CLLocationCoordinate2D(latitude: 43.043914, longitude: -87.917262), isDisabled: false)
     
     mapView.addAnnotation(message)
-}
+}*/
 }
 
 
