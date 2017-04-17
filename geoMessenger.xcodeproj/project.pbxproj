@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2264B5D0C3EEA41DEA7A86E3 /* Pods_geoMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B37955C1DAA4BF3056D9D55 /* Pods_geoMessenger.framework */; };
+		3D2CF0931EA12F7D00B247AA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CF0921EA12F7D00B247AA /* CameraViewController.swift */; };
+		3D2CF0951EA1378F00B247AA /* PhotoSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CF0941EA1378F00B247AA /* PhotoSearchViewController.swift */; };
+		3D2CF0971EA139EA00B247AA /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CF0961EA139EA00B247AA /* PhotoCell.swift */; };
+		3D2CF2B21EA5185400B247AA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2AE1EA5185400B247AA /* Alamofire.framework */; };
+		3D2CF2B31EA5185400B247AA /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2AE1EA5185400B247AA /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D2CF2B41EA5185400B247AA /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2AF1EA5185400B247AA /* AlamofireImage.framework */; };
+		3D2CF2B51EA5185400B247AA /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2AF1EA5185400B247AA /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D2CF2B61EA5185400B247AA /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2B01EA5185400B247AA /* RestKit.framework */; };
+		3D2CF2B71EA5185400B247AA /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2B01EA5185400B247AA /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D2CF2B81EA5185400B247AA /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2B11EA5185400B247AA /* VisualRecognitionV3.framework */; };
+		3D2CF2B91EA5185400B247AA /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CF2B11EA5185400B247AA /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D819DAC1E88701100550BAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D819DAB1E88701100550BAC /* GoogleService-Info.plist */; };
 		3D819DAE1E88709900550BAC /* Tables.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D819DAD1E88709900550BAC /* Tables.storyboard */; };
 		3D819DB11E8872A800550BAC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D819DB01E8872A800550BAC /* CustomButton.swift */; };
@@ -35,9 +46,33 @@
 		3D84D7781E6B5D730016FAA4 /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84D7771E6B5D730016FAA4 /* MapViewExtension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3D2CF2BA1EA5185500B247AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D2CF2B31EA5185400B247AA /* Alamofire.framework in Embed Frameworks */,
+				3D2CF2B51EA5185400B247AA /* AlamofireImage.framework in Embed Frameworks */,
+				3D2CF2B71EA5185400B247AA /* RestKit.framework in Embed Frameworks */,
+				3D2CF2B91EA5185400B247AA /* VisualRecognitionV3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2B37955C1DAA4BF3056D9D55 /* Pods_geoMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39535E70731E2A552BD3E863 /* Pods-geoMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessenger/Pods-geoMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		3D2CF0921EA12F7D00B247AA /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3D2CF0941EA1378F00B247AA /* PhotoSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewController.swift; sourceTree = "<group>"; };
+		3D2CF0961EA139EA00B247AA /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		3D2CF2AE1EA5185400B247AA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3D2CF2AF1EA5185400B247AA /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		3D2CF2B01EA5185400B247AA /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		3D2CF2B11EA5185400B247AA /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		3D819DAB1E88701100550BAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3D819DAD1E88709900550BAC /* Tables.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tables.storyboard; sourceTree = "<group>"; };
 		3D819DB01E8872A800550BAC /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -74,7 +109,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2CF2B41EA5185400B247AA /* AlamofireImage.framework in Frameworks */,
+				3D2CF2B81EA5185400B247AA /* VisualRecognitionV3.framework in Frameworks */,
 				2264B5D0C3EEA41DEA7A86E3 /* Pods_geoMessenger.framework in Frameworks */,
+				3D2CF2B21EA5185400B247AA /* Alamofire.framework in Frameworks */,
+				3D2CF2B61EA5185400B247AA /* RestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +169,10 @@
 		3D84D7551E6B48490016FAA4 = {
 			isa = PBXGroup;
 			children = (
+				3D2CF2AE1EA5185400B247AA /* Alamofire.framework */,
+				3D2CF2AF1EA5185400B247AA /* AlamofireImage.framework */,
+				3D2CF2B01EA5185400B247AA /* RestKit.framework */,
+				3D2CF2B11EA5185400B247AA /* VisualRecognitionV3.framework */,
 				3D819DEA1E8879A200550BAC /* Custom TextFields */,
 				3D819DAF1E8870CF00550BAC /* Custom Controls */,
 				3D84D7601E6B48490016FAA4 /* geoMessenger */,
@@ -153,7 +196,10 @@
 				3D819DF11E88800100550BAC /* Tables */,
 				3D84D7611E6B484A0016FAA4 /* AppDelegate.swift */,
 				3D84D7631E6B484A0016FAA4 /* FirstViewController.swift */,
+				3D2CF0961EA139EA00B247AA /* PhotoCell.swift */,
+				3D2CF0941EA1378F00B247AA /* PhotoSearchViewController.swift */,
 				3D84D7651E6B484A0016FAA4 /* SecondViewController.swift */,
+				3D2CF0921EA12F7D00B247AA /* CameraViewController.swift */,
 				3D84D7751E6B5A0A0016FAA4 /* Message.swift */,
 				3D84D7771E6B5D730016FAA4 /* MapViewExtension.swift */,
 				3D84D7671E6B484A0016FAA4 /* Main.storyboard */,
@@ -188,6 +234,7 @@
 				3D84D75C1E6B48490016FAA4 /* Resources */,
 				A0AA424B57244C971B173EE3 /* [CP] Embed Pods Frameworks */,
 				2FCA39298F43959470067F43 /* [CP] Copy Pods Resources */,
+				3D2CF2BA1EA5185500B247AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,6 +358,8 @@
 				3D819DF01E887FE800550BAC /* AddViewController.swift in Sources */,
 				3D819DE51E88799800550BAC /* MadokaTextField.swift in Sources */,
 				3D819DEC1E887A8400550BAC /* TabBarViewController.swift in Sources */,
+				3D2CF0931EA12F7D00B247AA /* CameraViewController.swift in Sources */,
+				3D2CF0971EA139EA00B247AA /* PhotoCell.swift in Sources */,
 				3D819DE81E88799800550BAC /* YokoTextField.swift in Sources */,
 				3D84D7781E6B5D730016FAA4 /* MapViewExtension.swift in Sources */,
 				3D819DE91E88799800550BAC /* YoshikoTextField.swift in Sources */,
@@ -320,6 +369,7 @@
 				3D819DE61E88799800550BAC /* MinoruTextField.swift in Sources */,
 				3D819DEE1E887DEF00550BAC /* TableViewController.swift in Sources */,
 				3D819DE71E88799800550BAC /* TextFieldEffects.swift in Sources */,
+				3D2CF0951EA1378F00B247AA /* PhotoSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +491,10 @@
 			baseConfigurationReference = 39535E70731E2A552BD3E863 /* Pods-geoMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = geoMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geoMessenger;
@@ -454,6 +508,10 @@
 			baseConfigurationReference = B2D4ECCC76B9036243EEFEFF /* Pods-geoMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = geoMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geoMessenger;

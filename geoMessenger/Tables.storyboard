@@ -12,7 +12,6 @@
         <!--Add-->
         <scene sceneID="8ma-x3-Caw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9oN-OI-je1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="add" title="Add" id="7eR-px-eNl" customClass="AddViewController" customModule="geoMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XAe-M2-58m"/>
@@ -103,13 +102,13 @@
                         <outlet property="txtLast" destination="w9n-xs-KAC" id="oMS-C7-HOa"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9oN-OI-je1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="661.60000000000002" y="-188.45577211394306"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="Xi0-DT-Ldu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2xG-VF-m0R" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController storyboardIdentifier="Tab1" id="GHG-Uq-JiF" customClass="TabBarViewController" customModule="geoMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="kKG-4Y-yqi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -121,6 +120,7 @@
                         <segue destination="1G4-l0-75j" kind="relationship" relationship="viewControllers" id="Fdx-05-vdB"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xG-VF-m0R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-342" y="119"/>
         </scene>
